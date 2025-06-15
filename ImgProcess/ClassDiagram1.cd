@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ImgProcess.FileManager" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAAAACAAAAAgAAAAAQAAAAAAEQACAAAAAAA=</HashCode>
+      <FileName>FileManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="showmess" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ImgProcess.Form1" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>bQS4IgkwADIAFJgAoESAgF/yIAEoACBAQmADwbhAACA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="filemanager" />
+      <Field Name="viewer" />
+      <Field Name="showmess" />
+      <Field Name="toolmanager" />
+      <Field Name="imgprocessor" />
+      <Field Name="formInvoke" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ImgProcess.Program" Collapsed="true">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImgProcess.ShowMessage" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAQAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShowMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImgProcess.Properties.Resources" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAgCAAAAAABAABBEAEBAQAAAAAAIAAAACAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImgProcess.Properties.Settings" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImgProcess.ToolbarManager" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAQAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImgProcess.Viewer" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAABAAAAAAACAAAiAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImgProcess.ImageProcessor" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAAAAAIAAIABAAAAAAACAAAAABAAAAAAA=</HashCode>
+      <FileName>ImageProcessor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="helper" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ImgProcess.ValueForm" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASQCAAAAAGAAEBAAAwiAAAJCEAAIoAAAEEAAAwAAAiA=</HashCode>
+      <FileName>ValueForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImgProcess.ProcessHelper" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ProcessHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
